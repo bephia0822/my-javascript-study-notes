@@ -10,13 +10,14 @@ if (age < 10) {
 console.log(greeting);
 
 //如何簡短表示
+const age = 20;
 
 const greeting = age < 10 ? "Hey there" : "That's an interesting age!";
 console.log(greeting);
 
 //難度提高版
 
-const age = 20;
+const age = 12;
 
 let greeting;
 
@@ -32,6 +33,7 @@ if (age < 10) {
 console.log(greeting);
 
 //簡化
+const age = 12;
 
 const greeting = age < 10 ? "Hey there" : age > 18 ? "Greetings" : age > 10 ? "What's up?" : "That's an interesting age!";
 console.log(greeting);
