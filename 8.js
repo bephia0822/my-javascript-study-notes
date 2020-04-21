@@ -17,7 +17,7 @@ console.log(greeting);
 
 //難度提高版
 
-const age = 12;
+const age = 14;
 
 let greeting;
 
@@ -33,7 +33,7 @@ if (age < 10) {
 console.log(greeting);
 
 //簡化
-const age = 12;
+const age = 14;
 
 const greeting = age < 10 ? "Hey there" : age > 18 ? "Greetings" : age > 10 ? "What's up?" : "That's an interesting age!";
 console.log(greeting);
