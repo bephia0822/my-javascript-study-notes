@@ -23,3 +23,6 @@ function sendUserMessage(user, text) {
 
 sendUserMessage(user1, 'Hey there')
 //改成user2的話就會出現”User Doug says: Hey there“
+//或者在sendUserMessage(user1, 'Hey there')的下面加
+sendUserMessage(user2, "What's up?");
+//就會出現User Doug says: What's up?
