@@ -41,7 +41,7 @@ console.log(totalWeight);
 const totalWeight = cars.reduce((accumulator, car) => {
     if (car.isElectric) {
         return accumulator + car.weight;       //如果是isEletric的話return這樣
-    } else {                                   //不是的話，return accumulator itself(我這邊看不太懂) 
+    } else {                                   //不是的話，不管結果如何，return accumulator itself
         return accumulator;
     }
 }, 0)
